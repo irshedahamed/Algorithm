@@ -40,11 +40,6 @@ public class MergeSortImpl {
 
     public static void main(String[] args) {
         int[] arr = {4, 1, 6, 2, 3, 9, 5, 7, 8};
-        //mergeSort(arr, 0, 8);
-        HeapSort a = new HeapSort();
-        a.heapSort(arr);
-        for (int i : arr) {
-            System.out.print(i + " ");
-        }
+        mergeSort(arr, 0, 8);
     }
 }
